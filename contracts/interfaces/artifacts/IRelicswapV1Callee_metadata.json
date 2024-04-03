@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.5.16+commit.9c3226ce"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "uniswapV2Call",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"v2-core-master/contracts/interfaces/IRelicswapV1Callee.sol": "IRelicswapV1Callee"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"v2-core-master/contracts/interfaces/IRelicswapV1Callee.sol": {
+			"keccak256": "0xaa963cd3221137430950f85f1acd64f335292861cdefdf11924d9683fd54e87b",
+			"urls": [
+				"bzz-raw://cbf1be8e24b88af58a300b5fc1003586f1316c9c239b79a763a2e82e2b62b363",
+				"dweb:/ipfs/QmYrRCsStMSCBXmcBFhyf4oNsUYSxW5rDvCFjPr6MCJZhU"
+			]
+		}
+	},
+	"version": 1
+}
